@@ -87,5 +87,13 @@ def all_holidays_with_bbq(holiday_hash)
 #         // then BBQHoliday.push(holiday)
 #
 
-holiday_supplies  
+holiday_supplies.each { |season, holiday_hash|
+  season.each { |holiday, itemArray|
+    itemArray.each { |item|
+
+    }
+
+    }
+
+  }
 end
