@@ -67,6 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
       holidayNameArray.collect { |eachWord|
         eachWord.capitalize!
        }
+      holidayNameArray.join(',')
       puts "  #{}: #{items.join(', ')}"
     }
   }
