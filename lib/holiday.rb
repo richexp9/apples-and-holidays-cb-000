@@ -60,8 +60,8 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  holiday_hash.each { |season, holiday|
-    holiday.each { |items|
+  holiday_hash.each { |season, holidayList|
+    holidayList.each { |holiday, items|
       puts items
     }
   }
