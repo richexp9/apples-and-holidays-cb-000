@@ -80,5 +80,12 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
+# //iterate through holiday_supplies {season, holiday_hash}
+#   //iterate through seasons hash {holiday, itemArray}
+#     //iterate through hitems {item}
+#       // if item == "BBQ"
+#         // then BBQHoliday.push(holiday)
+#
 
+holiday_supplies  
 end
