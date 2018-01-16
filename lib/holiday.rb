@@ -93,9 +93,9 @@ def all_holidays_with_bbq(holiday_hash)
       itemArray.each { |item|
         if item == "BBQ"
           collect.push(item)
-
         end
       }
     }
   }
+  collect
 end
