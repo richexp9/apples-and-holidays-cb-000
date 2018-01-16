@@ -63,7 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each { |season, holidayList|
     puts season
     holidayList.each { |holiday, items|
-      puts items
+      puts "#{holiday}: #{items}"
     }
   }
 
