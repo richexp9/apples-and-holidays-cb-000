@@ -92,7 +92,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday_hash.each { |holiday, itemArray|
       itemArray.each { |item|
         if item == "BBQ"
-          collect.push(item)
+          collect.push(holiday)
         end
       }
     }
